@@ -19,7 +19,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     read: false,
     link: {
       type: 'post',
-      label: 'My first tournament todat!',
+      label: 'My first tournament today!',
       href: '#',
     },
   },
