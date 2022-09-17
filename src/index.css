@@ -179,7 +179,7 @@ a:not([class]) {
 /* ----------------- */
 
 #root {
-  justify-content: center;
+  align-items: center;
   background-color: hsl(var(--clr-gray-100));
   font-family: var(--ff-sans);
   line-height: var(--lh-base);
