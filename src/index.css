@@ -34,13 +34,14 @@
 
   /* font-weight */
   --fw-normal: 500;
+  --fw-medium: 700;
   --fw-bold: 800;
 
   /* letter-spacing */
   --ls-base: normal;
 
   /* line-height */
-  --lh-base: 1.25;
+  --lh-base: 1.5;
 
   /* font-size */
   --fs-base: 0.875rem;
