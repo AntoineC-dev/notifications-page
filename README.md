@@ -34,11 +34,11 @@ Bonus:
 
 - Tablet (768x1024)
 
-![Fullpage Tablet](./fullpage-tablet.png)
+![Fullpage Tablet](./fullpage-tablet-min.png)
 
 - Mobile (375x760)
 
-![Fullpage Mobile](./fullpage-mobile.png)
+![Fullpage Mobile](./fullpage-mobile-min.png)
 
 ### Links
 
