@@ -23,6 +23,7 @@ interface NotificationPrivateMessage {
 }
 
 export interface AppNotification {
+  id: string;
   profile: NotificationProfile;
   avatar: string;
   text: string;

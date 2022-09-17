@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid';
 import type { AppNotification } from '../types';
 
 import avatarMark from '../assets/avatar-mark-webber.webp';
@@ -12,6 +13,7 @@ import imageKimberly from '../assets/image-chess.webp';
 
 export const NOTIFICATIONS: AppNotification[] = [
   {
+    id: nanoid(),
     avatar: avatarMark,
     profile: { name: 'Mark Webber', href: '#' },
     text: 'reacted to your recent post',
@@ -24,6 +26,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     },
   },
   {
+    id: nanoid(),
     avatar: avatarAngela,
     profile: { name: 'Angela Gray', href: '#' },
     text: 'followed you',
@@ -31,6 +34,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     read: false,
   },
   {
+    id: nanoid(),
     avatar: avatarJacob,
     profile: { name: 'Jacob Thompson', href: '#' },
     text: 'has joined your group',
@@ -43,6 +47,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     },
   },
   {
+    id: nanoid(),
     avatar: avatarRizky,
     profile: { name: 'Rizky Hasanuddin', href: '#' },
     text: 'sent you a private message',
@@ -55,6 +60,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     },
   },
   {
+    id: nanoid(),
     avatar: avatarKimberly,
     profile: { name: 'Kimberly Smith', href: '#' },
     text: 'commented on your picture',
@@ -67,6 +73,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     },
   },
   {
+    id: nanoid(),
     avatar: avatarNathan,
     profile: { name: 'Nathan Peterson', href: '#' },
     text: 'reacted to your recent post',
@@ -79,6 +86,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     },
   },
   {
+    id: nanoid(),
     avatar: avatarAnna,
     profile: { name: 'Anna Kim', href: '#' },
     text: 'left the group',
