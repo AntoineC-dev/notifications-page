@@ -62,7 +62,7 @@ Bonus:
 
 This was a project with a small amount of code/styles. I have been doing challenges 7/7 for more than 2 months now and I wanted to know how much I improved. I did it in 4 hours which is still a bit too long I think but I had to create the data object + the usual TS interfaces by hand since there was no json in the starter-files.
 
-#### The "Owl selector" -- (_ + _)
+#### The "Owl selector" `(* + *)`
 
 Helpful when you need to add margin between elements without using `flex` or `grid`. It will apply the margin only to elements that have another element before without raising the specificity.
 
