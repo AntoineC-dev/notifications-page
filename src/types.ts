@@ -2,7 +2,7 @@ const linkTypes = ['post', 'group'] as const;
 
 interface NotificationLink {
   type: typeof linkTypes[number];
-  href: string;
+  label: string;
 }
 
 export interface AppNotification {
@@ -16,6 +16,4 @@ export interface AppNotification {
   image?: string;
 }
 
-export interface NotificationStore {
-  notifications: AppNotification[];
-}
+export type NotificationStore = AppNotification[];
