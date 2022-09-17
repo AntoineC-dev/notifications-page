@@ -1,0 +1,15 @@
+.container {
+  flex-grow: 1;
+  width: min(100%, 45.625rem);
+  background-color: hsl(var(--clr-light));
+  padding: var(--space-lg) var(--space-base) var(--space-xl);
+}
+
+@media (--screen-tablet) {
+  .container {
+    flex-grow: 0;
+    padding: var(--space-xl) var(--space-xl) 0;
+    border-radius: var(--br-md);
+    box-shadow: var(--shadow-base);
+  }
+}

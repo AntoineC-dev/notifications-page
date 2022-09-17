@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.title {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-gray-600));
+}
+
+.count {
+  display: grid;
+  place-content: center;
+  width: 32px;
+  height: 25px;
+  border-radius: var(--br-sm);
+  background-color: hsl(var(--clr-primary-blue));
+  font-size: 1rem;
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-light));
+}
+
+/* Negative margin to increase clickable area w/o breaking layout */
+.btn {
+  --padding: 0.25rem;
+  cursor: pointer;
+  margin-block: calc(var(--padding) * -1);
+  margin-left: auto;
+  padding-block: var(--padding);
+  padding-left: var(--padding);
+  transition: color 250ms linear;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  color: hsl(var(--clr-primary-blue));
+}
