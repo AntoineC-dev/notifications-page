@@ -7,7 +7,7 @@ import styles from './Notification.module.css';
 const Notification: Component<AppNotification> = (props: AppNotification) => {
   const onNavigate = () => !props.read && setNotificationReadById(props.id, true);
   return (
-    <article classList={{ [styles.container]: true, [styles.read]: props.read }}>
+    <div classList={{ [styles.container]: true, [styles.read]: props.read }}>
       <div class={styles.avatar} aria-hidden="true">
         <img src={props.avatar} alt="" />
       </div>
@@ -32,11 +32,10 @@ const Notification: Component<AppNotification> = (props: AppNotification) => {
       </div>
       <Show when={props.image}>
         <a href={props.image?.href} onClick={onNavigate} class={styles.image}>
-          <span class="sr-only">{props.image?.alt}</span>
           <img src={props.image?.src} alt={props.image?.alt} />
         </a>
       </Show>
-    </article>
+    </div>
   );
 };
 
