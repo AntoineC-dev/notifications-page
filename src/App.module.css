@@ -5,11 +5,25 @@
   padding: var(--space-lg) var(--space-base) var(--space-xl);
 }
 
+.container > * + * {
+  margin-top: var(--space-lg);
+}
+
+.notifications > * + * {
+  margin-top: var(--space-xs);
+}
+
 @media (--screen-tablet) {
   .container {
     flex-grow: 0;
     padding: var(--space-xl) var(--space-xl) 0;
     border-radius: var(--br-md);
     box-shadow: var(--shadow-base);
+  }
+  .container > * + * {
+    margin-top: var(--space-xl);
+  }
+  .notifications > * + * {
+    margin-top: var(--space-2xs);
   }
 }
