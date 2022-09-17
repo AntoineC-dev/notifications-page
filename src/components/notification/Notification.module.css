@@ -87,6 +87,7 @@
 
 .image {
   border-radius: var(--br-base);
+  height: min-content;
 }
 
 @media (--screen-tablet) {
