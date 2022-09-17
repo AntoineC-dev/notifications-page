@@ -17,7 +17,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     text: 'reacted to your recent post',
     createdAt: '1m ago',
     read: false,
-    post: 'My first tournament todat!',
+    link: { type: 'post', href: 'My first tournament todat!' },
   },
   {
     avatar: avatarAngela,
@@ -32,7 +32,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     text: 'has joined your group',
     createdAt: '1 day ago',
     read: false,
-    group: 'Chess Club',
+    link: { type: 'group', href: 'Chess Club' },
   },
   {
     avatar: avatarRizky,
@@ -57,7 +57,7 @@ export const NOTIFICATIONS: AppNotification[] = [
     text: 'reacted to your recent post',
     createdAt: '2 weeks ago',
     read: true,
-    post: '5 end-game strategies to increase your win rate',
+    link: { type: 'post', href: '5 end-game strategies to increase your win rate' },
   },
   {
     avatar: avatarAnna,
@@ -65,6 +65,6 @@ export const NOTIFICATIONS: AppNotification[] = [
     text: 'left the group',
     createdAt: '2 weeks ago',
     read: true,
-    group: 'Chess Club',
+    link: { type: 'group', href: 'Chess Club' },
   },
 ];
