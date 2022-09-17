@@ -52,11 +52,12 @@
   --outline-focus: 4px dotted hsl(var(--clr-primary-blue));
 
   /* box-shadow */
-  --shadow-base: 0px 20px 60px rgba(73, 97, 168, 0.05);
+  --shadow-base: rgba(73, 97, 168, 0.05) 0px 20px 60px;
 
   /* border radius */
   --br-sm: 0.375rem;
   --br-base: 0.5rem;
+  --br-md: 1rem;
 
   /* spacing */
   --space-3xs: 0.25rem;
@@ -190,7 +191,13 @@ a:not([class]) {
 
 @media (--screen-tablet) {
   #root {
-    padding-block: var(--space-2xl);
+    padding: var(--space-xl);
+  }
+}
+
+@media (--screen-desktop) {
+  #root {
+    padding: var(--space-2xl) var(--space-lg);
   }
 }
 
